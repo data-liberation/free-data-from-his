@@ -1781,3 +1781,359 @@ base_url/delete/
 * 1.更多资料请查看 https://github.com/TommyLemon/APIJSON
 * 2.自动化接口管理工具 http://apijson.org/
 * 3.多语言支持(c#/nodejs/java/php/python)
+
+
+<slide class="bg-apple aligncenter">
+
+## **接口管理工具**
+---
+![](public/api-management-tools.png)
+
+<slide class="bg-apple aligncenter">
+
+## **YApi 可视化接口管理平台**
+---
+* 在线体验：yapi.demo.qunar.com       
+* 源代码: github.com/ymfe/yapi     
+* 文档和教程：https://yapi.ymfe.org/documents/index.html
+
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  产品特性
+---
+
+* 基于 Json5 和 Mockjs 定义接口返回数据的结构和文档，效率提升多倍 {.animated.fadeInUp}
+* 扁平化权限设计，即保证了大型企业级项目的管理，又保证了易用性 {.animated.fadeInUp.delay-400}
+* 类似 postman 的接口调试 {.animated.fadeInUp.delay-800}
+* 自动化测试, 支持对 Response 断言 {.animated.fadeInUp.delay-800}
+* MockServer 除支持普通的随机 mock 外，还增加了 Mock 期望功能，根据设置的请求过滤规则，返回期望数据 {.animated.fadeInUp.delay-800}
+* 支持 postman, har, swagger 数据导入 {.animated.fadeInUp.delay-800}
+* 免费开源，内网部署，信息再也不怕泄露了 {.animated.fadeInUp.delay-800}
+    
+
+
+    
+<slide class="bg-apple aligncenter">
+
+##  内网私有部署
+ ---
+* 物理机虚拟机部署教程      
+ https://yapi.ymfe.org/devops/index.html    
+* Docker一键部署     
+https://github.com/Ryan-Miao/docker-yapi    
+https://www.jianshu.com/p/a97d2efb23c5
+
+
+        
+<slide class="bg-apple aligncenter">
+
+##  首页
+---
+!![](https://yapi.ymfe.org/documents/images/usage/index.png .aligncenter .fullscreen)
+
+ 
+:::note
+此时你作为新用户，没有任何分组与项目的权限，因此只能搜索、浏览 “公开项目” 的接口，如果在首页找不到任何项目，请联系管理员将你加入对应项目。
+
+1首页头部展示了当前所在的位置、搜索框、新建项目、查看文档和用户信息。
+
+2首页左侧展示分组信息，“分组”是“项目”的集合，只有超级管理员可以管理分组。
+
+3首页右侧是分组下的项目和成员列表，点击左侧的某个分组，右侧会出现该分组下的项目和成员信息。
+
+4点击项目右上角的星星即可关注项目，关注的项目可以在“我的关注”页面查看。
+:::
+    
+    
+
+        
+<slide class="bg-apple aligncenter">
+
+##  项目页 
+---
+![](https://yapi.ymfe.org/documents/images/usage/project.png)
+ :::note
+   
+点击一个项目，进入项目页，项目页展示了属于该项目的全部接口，并提供项目、接口的全部操作。
+
+此时你作为新用户，只能浏览接口信息，不可以编辑项目或接口，如果需要编辑，请联系管理员将你加入该项目。
+
+1项目页左侧的 “接口列表” 展示了该项目下的所有接口，右侧默认显示该项目下所有接口的列表。
+
+2点击左侧的某个接口，右侧会出现“预览”、“编辑”和“运行”。
+
+3点击左侧的 “测试集合” 使用测试集功能。
+
+4点击二级导航的“设置”，项目组长即可编辑项目信息和管理成员列表。
+
+5点击二级导航的“动态”，即可查看项目的操作日志。
+:::
+
+
+<slide class="bg-apple aligncenter">
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  选择一个项目->创建一个接口 
+---
+:::column
+![](https://yapi.ymfe.org/documents/images/project_list.png)
+
+----
+
+
+![](https://yapi.ymfe.org/documents/images/usage/api_add_btn.png)
+
+:::
+
+
+<slide class="bg-apple aligncenter">
+
+##  编辑提交接口->查看接口 
+---
+:::column
+
+![](https://yapi.ymfe.org/documents/images/usage/api_add_panel.png)
+
+
+----
+
+![](https://yapi.ymfe.org/documents/images/usage/api_res.png)
+:::
+
+
+
+<slide class="bg-apple aligncenter">
+
+## **crap 可视化接口管理平台**
+---
+API接口管理系统、BUG管理系统、文档管理系统（应用接口管理系统）三合一
+
+* 在线体验：http://api.crap.cn/     
+* 源代码: https://github.com/EhsanTang/ApiManager     
+* 文档和教程：https://yapi.ymfe.org/documents/index.html
+
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  产品特性
+---
+
+* 单页应用、异步交互，响应速度快 {.animated.fadeInUp}
+* 具有多种账户类型，权限管理功能，适合企业内部使用 {.animated.fadeInUp.delay-400}
+* 支持用户注册、项目支持成员管理，适合团队协作办公，可企业内部部署，也可在线使用 {.animated.fadeInUp.delay-800}
+* 支持团队协作 {.animated.fadeInUp.delay-800}
+
+    
+
+<slide class="bg-apple aligncenter">
+
+##  系统功能（普通用户）
+
+---
+
+* 支持多项目、多模块，支持私有项目、公开项目、加密项目（需要输入密码才能访问）
+* 项目支持协同管理，支持添加项目成员，成员权限多达20种，可精确控制每个成员的权限
+* 接口支持普通接口，restfull接口（参数在路径中），josn、xml等各种接口
+* 接口支持word、pdf格式下载，可单个下载也可按模块下载
+* 系统支持文章管理（需求、技术文档等），文章均可配置是否可评论，评论可回复，用户将收到邮件通知
+* 系统配置是否支持注册，可邮箱注册也可免注册，直接使用github、开源中国账号登陆
+* 系统支持数据字典（数据库表）管理，支持标识主键、外键等
+* 支持文档管理（word、excel、pdf、txt）
+* 系统支持接口、文章、数据字典、文档等全文检索
+* 接口、文章、数据字典等每次修改都有日志，可恢复至任意版本
+* 系统支持在线调试（线上接口）
+* 系统拥有自己的接口调试插件：ApiDebug（谷歌浏览器插件市场可搜索），通过插件可调试本地接口、host映射域名接口调试
+
+
+<slide class="bg-apple aligncenter">
+
+##  系统功能（管理员）
+
+---
+
+
+* 系统采用图形验证码+MD5+盐加密，用户密码、项目密码能有效防止暴力破
+* 系统支持自定义字体、logo、背景图、颜色、icon、标题、关键字、站点描素等自定义设计
+* 支持多管理员，支持角色、权限配置
+* 系统采用内存缓存，能有效加快系统速度
+* 系统自持热搜管理，能实时查看用户搜索情况（按搜索情况配置快捷通道）
+* 支持菜单自定义、支持二级菜单（顶部、友情链接、左侧快捷菜单、底部菜单）
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  内网私有化部署
+---
+* 物理机虚拟机部署    
+http://api.crap.cn/static/help/152619192418001000039.html
+
+* 阿里云ecs部署    
+http://api.crap.cn/static/help/155211578517301000468.html
+
+<slide class="bg-apple aligncenter">
+
+
+## 首页
+-------
+![](public/capi-home.png)
+
+
+
+<slide class="bg-apple aligncenter">
+
+
+## 项目首页
+-------
+![](public/capi-project.png)
+
+
+<slide class="bg-apple aligncenter">
+
+
+## 新增接口
+-------
+![](public/capi-new-api.png)
+
+
+<slide class="bg-apple aligncenter">
+
+
+## 功能演示视频
+---
+
+优酷视频：http://api.crap.cn/index.do#/article/detail?projectId=help&moduleId=help&type=ARTICLE&id=152551958970001000022
+
+
+
+
+<slide class="bg-apple aligncenter">
+
+## **RAP 可视化接口管理平台**            
+ Web接口管理工具，开源免费，接口自动化，     
+ MOCK数据自动生成，自动化测试，企业级管理
+
+---
+* 在线体验      
+rap2.taobao.org/    
+* 源代码      
+github.com/thx/rap2-delos     
+github.com/thx/RAP      
+* 文档和教程     
+github.com/thx/RAP/wiki     
+rapapi.org/platform/home.do
+* **rap2暂未稳定，建议使用rap**
+
+:::note
+在前后端分离的开发模式下，我们通常需要定义一份接口文档来规范接口的具体信息。如一个请求的地址、有几个参数、参数名称及类型含义等等。RAP 首先方便团队录入、查看和管理这些接口文档，并通过分析结构化的文档数据，重复利用并生成自测数据、提供自测控制台等等... 大幅度提升开发效率。
+
+:::
+
+
+<slide class="bg-apple aligncenter">
+
+## **RAP 特性**
+
+-----
+
+* 轻松编辑与分享         
+可视化编辑，完善的版本控制，各种格式的导入导出。让前后端约定接口的工作变得十分简单 
+* Mock服务            
+RAP会自动根据接口文档生成Mock接口，这些接口会自动生成模拟数据，支持复杂的生成逻辑。
+* 实力的保障               
+覆盖阿里几乎所有部门，有200+公司正在使用RAP，历经4年积累大量经验，可适应各种复杂的业务场景。
+* 自动化工具集      
+除了RAP开发团队提供的各种自动化工具，通过Blueprint API的引入，我们不断支持更多新工具。
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  内网私有化部署
+---
+* 物理机虚拟机部署    
+https://github.com/thx/rap2-delos/issues/119   
+
+
+* Docker 部署    
+https://github.com/thx/rap2-delos/wiki/docker
+
+
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  可视化编辑，用户体验至上
+
+
+-------
+:::column
+![](public/rap-scene1.png)
+
+--------
+
+![](public/rap-scene2.png)
+:::
+
+
+<slide class="bg-apple aligncenter">
+
+##  可视化编辑，用户体验至上
+
+
+-------
+:::column
+![](public/rap-scene3.png)
+
+--------
+
+![](public/rap-scene4.png)
+:::
+
+
+
+<slide class="bg-apple aligncenter">
+
+##  RAP的使用数据
+
+-------
+:::column
+![](public/rap-data1.png)
+
+--------
+
+![](public/rap-data2.png)
+
+:::
+
+<slide class="bg-apple aligncenter">
+
+##  RAP的使用数据
+
+-------
+:::column
+
+
+![](public/rap-data3.png)
+
+--------
+
+![](public/rap-data4.png)
+:::
+
+
+<slide class="bg-apple aligncenter">
+
+##  用户实操手册
+
+---
+https://github.com/thx/RAP/wiki/user_manual_cn#%E5%B7%A5%E4%BD%9C%E5%8C%BA
